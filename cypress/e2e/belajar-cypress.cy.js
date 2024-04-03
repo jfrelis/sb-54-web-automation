@@ -18,7 +18,7 @@ describe('User should be able to sign up', () => {
     // 5. Click sign up button
 
     HomePage.goHomepage()
-    HomePage.clickSignUpMenu()
+    HomePage.clickSignUpMenu();
     RegisterPage.fillUsername(randomUser)
     RegisterPage.fillPassword()
     RegisterPage.clickSignUpBtn()
